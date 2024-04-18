@@ -49,3 +49,5 @@ def calculate_oee(production_logs):
     print(availability)
     print(performance)
     return oee
+
+

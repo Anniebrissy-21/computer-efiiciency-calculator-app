@@ -21,3 +21,6 @@ class Production_log(models.Model):
 
     def __str__(self):
         return self.material_name
+
+
+

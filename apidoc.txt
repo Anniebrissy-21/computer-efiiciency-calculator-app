@@ -83,6 +83,8 @@
     method:delete
 
 
+
+
 11. api for calculating OEE
 
     url:http://127.0.0.1:8000/oee-data/
