@@ -1,0 +1,7 @@
+
+
+first step=> python manage.py runserver
+
+second step=> run all the APIs from apidoc.txt in thunderclient or postman , etc any api testing app
+
+third step=> calculate the oee from api
