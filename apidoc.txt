@@ -1,0 +1,90 @@
+1. api for creating machine
+
+    url: http://127.0.0.1:8000/api/machine/
+    data:{
+        machine_name
+        machine_serial_no
+    }
+    method:post
+
+2. api for listing all machine
+
+    url:url: http://127.0.0.1:8000/api/machine/
+    data:Nill
+    method:get
+
+3. api for upadting a machine
+
+    url: http://127.0.0.1:8000/api/machine/{id}/
+    data:{
+        machine_name
+        machine_serial_no
+    }
+    method:put
+
+4. api for reteriving a machine
+
+    url: http://127.0.0.1:8000/api/machine/{id}/
+    data:nill
+    method:get
+
+5. api for deleting a machine
+
+    url:http://127.0.0.1:8000/api/machine/{id}/
+    data:Nill
+    method:delete
+
+6. api for adding a production log
+
+    url:http://127.0.0.1:8000/api/productions/
+    data:{
+        cycle_no
+        unique_id
+        material_name
+        machine
+        start_time
+        end_time
+        duration
+    }
+
+    method:post
+7. api for listing all production log
+
+     url:http://127.0.0.1:8000/api/productions/
+     data:Nill
+     method:get
+
+8. api for updating a production log
+
+     url:http://127.0.0.1:8000/api/productions/{id}/
+
+       data:{
+        cycle_no
+        unique_id
+        material_name
+        machine
+        start_time
+        end_time
+        duration
+    }
+
+    method:put
+
+9. api for retriving a production log
+
+    url:http://127.0.0.1:8000/api/productions/{id}/
+    data:Nill
+    method:get
+
+10. api for deleting a production log
+
+    url:http://127.0.0.1:8000/api/productions/{id}/
+    data:Nill
+    method:delete
+
+
+11. api for calculating OEE
+
+    url:http://127.0.0.1:8000/oee-data/
+    data:nill
+    method:get
